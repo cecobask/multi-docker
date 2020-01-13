@@ -17,7 +17,8 @@ function App() {
             <Route exact path="/" component={Fib}/>
             <Route path="/otherpage" component={OtherPage}/>
           </div>
-          <a
+        </header>
+        <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
@@ -25,7 +26,6 @@ function App() {
           >
             Learn React
           </a>
-        </header>
       </div>
     </Router>
   );
